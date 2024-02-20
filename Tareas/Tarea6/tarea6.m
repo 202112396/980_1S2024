@@ -1,5 +1,5 @@
 pkg load database;
-conn=pq_connect(setdbopts('dbname','tarea','host','localhost','port','5432','user','postgres','password','alequipe18'));
+conn=pq_connect(setdbopts('dbname','1parcial','host','localhost','port','5432','user','postgres','password','alequipe18'));
 
 opcion=0;
 while opcion ~= 4
